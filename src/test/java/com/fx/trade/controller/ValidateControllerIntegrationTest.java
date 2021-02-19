@@ -65,8 +65,8 @@ public class ValidateControllerIntegrationTest {
                 .premiumCurency("USD")
                 .premiumType("%USD")
                 .premiumDate(parseDate("2020-08-12"))
-                .legalEntity("UBS AG")
-                .trader("Josef Schoenberger")
+                .legalEntity("Bank")
+                .trader("Jonh Smith")
                 .buildOption();
 
 
@@ -79,8 +79,8 @@ public class ValidateControllerIntegrationTest {
                 .amount2(1120000l)
                 .rate(1.12f)
                 .valueDate(parseDate("2020-08-15"))
-                .legalEntity("UBS AG")
-                .trader("Josef Schoenberger")
+                .legalEntity("Bank")
+                .trader("Jonh Smith")
                 .buildSpot();
 
         forwardDTO = new TradeDTOBuilder()
@@ -92,8 +92,8 @@ public class ValidateControllerIntegrationTest {
                 .amount2(1120000l)
                 .rate(1.12f)
                 .valueDate(parseDate("2020-08-22"))
-                .legalEntity("UBS AG")
-                .trader("Josef Schoenberger")
+                .legalEntity("Bank")
+                .trader("Jonh Smith")
                 .buildForward();
     }
 
